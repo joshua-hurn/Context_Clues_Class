@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var weapons = ['mace', 'sword', 'candlestick', 'rope', 'club', 'laptop', 'icepick', 'saber', 'knife', 'bedpost', 'gun', 'rifle', 'trebuchet', 'cannon', 'laser', 'machine gun', 'bullet', 'fist', 'airplane', 'Earth'];
 
         return function () {
-            alert(`Accusation ${i}: I accuse ${friends[i % 20]}, with the ${weapons[i % 5]} in the ${locations[i % 10]}!`);
+            alert(`Accusation ${i}: I accuse ${friends[i % 5]}, with the ${weapons[i % 20]} in the ${locations[i % 10]}!`);
         }
     }
 });
